@@ -1,0 +1,17 @@
+export enum FailureCode {
+  InsufficientFunds = 'INSUFFICIENT_FUNDS',
+  NegativeBalanceOnReversal = 'NEGATIVE_BALANCE_ON_REVERSAL',
+  CurrencyMismatch = 'CURRENCY_MISMATCH',
+  ReferenceNotFound = 'REFERENCE_NOT_FOUND',
+  ReferenceNeverProcessed = 'REFERENCE_NEVER_PROCESSED',
+  ReferenceAlreadyReversed = 'REFERENCE_ALREADY_REVERSED',
+  ReferenceTypeInvalid = 'REFERENCE_TYPE_INVALID',
+  ReferenceScopeMismatch = 'REFERENCE_SCOPE_MISMATCH',
+  ReferenceAmountMismatch = 'REFERENCE_AMOUNT_MISMATCH',
+  IdempotencyPayloadConflict = 'IDEMPOTENCY_PAYLOAD_CONFLICT',
+  ValidationError = 'VALIDATION_ERROR',
+  WalletNotFound = 'WALLET_NOT_FOUND',
+  WalletAlreadyExists = 'WALLET_ALREADY_EXISTS',
+  InfrastructureTransientFailure = 'INFRASTRUCTURE_TRANSIENT_FAILURE',
+  InfrastructurePermanentFailure = 'INFRASTRUCTURE_PERMANENT_FAILURE',
+}
